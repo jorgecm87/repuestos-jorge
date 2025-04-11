@@ -7,65 +7,95 @@
     <title>Proyecto Koki</title>
 </head>
 
-<body>
-    <h1>Jorge Motors</h1>
-    <section>
-        <h2>Respuesto de motor</h2>
-        <p>En esta sección se encuentran los repuestos de motor que tenemos disponibles.</p>
-        <img src="imagen-2.jpg" alt="Repuesto de motor 1" style="width: 300px; height: auto;">
-        <img src="imagen-3.jpg" alt="Repuesto de motor 1" style="width: 300px; height: auto;">
-        <img src="imagen-4.jpeg" alt="Repuesto de motor 1" style="width: 300px; height: auto;">
-    </section>
-    <section>
-        <h2>Kits de embrague</h2>
-        <p>En esta sección se encuentran los kits de embrague que tenemos disponibles.</p>
-        <ul>
-            <li>Embrague mecanico</li>
-            <li>Embrague automatico</li>
-            <li>Embrague semi-automatico</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Creacion de boton</h2>
-        <button>CLICK</button>
-    </section>
-    <section>
-        <h2>Creacion de tablas</h2>
-        <table border="1" style="width: 100%; border-collapse: collapse;">
-            <thead>
-                <tr>
-                    <th>Tipo de caja</th>
-                    <th>Precio</th>
-                    <th>Procedencia</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Manual</td>
-                    <td>$500</td>
-                    <td>USA</td>
-                </tr>
-                <tr>
-                    <td>Automatica</td>
-                    <td>$700</td>
-                    <td>USA</td>
-                </tr>
-                <tr>
-                    <td>CVT</td>
-                    <td>$800</td>
-                    <td>USA</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <section>
-        <h2>Uso de bloques en linea</h2>
-        <br>
-        <div style="background-color: lightblue; padding: 20px; border-radius: 5px;">
-            <h3>Bloque de texto</h3>
-            <p>Este es un bloque de texto que se utiliza para mostrar información adicional.</p>
-        </div>
-    </section>
+<body style="background-color: #121212; color: white;"></body>
+    <div style="margin: 0 auto; max-width: 1200px;">
+        <h1 style="text-align: center; background-color: #1e1e1e; padding: 10px; border-radius: 5px;">Jorge Motors</h1>
+        <section>
+            <h2>Respuesto de motor</h2>
+            <p>En esta sección se encuentran los repuestos de motor que tenemos disponibles.</p>
+            <img src="imagen-2.jpg" alt="Repuesto de motor 1" style="width: 300px; height: auto;">
+            <img src="imagen-3.jpg" alt="Repuesto de motor 1" style="width: 300px; height: auto;">
+            <img src="imagen-4.jpeg" alt="Repuesto de motor 1" style="width: 300px; height: auto;">
+        </section>
+        <section>
+            <h2>Kits de embrague</h2>
+            <p>En esta sección se encuentran los kits de embrague que tenemos disponibles.</p>
+            <ul>
+                <li>Embrague mecanico</li>
+                <li>Embrague automatico</li>
+                <li>Embrague semi-automatico</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Creacion de boton</h2>
+            <button>CLICK</button>
+        </section>
+        <section>
+            <h2>Creacion de tablas</h2>
+            <table border="1" style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th>Tipo de caja</th>
+                        <th>Precio</th>
+                        <th>Procedencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manual</td>
+                        <td>$500</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>Automatica</td>
+                        <td>$700</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>CVT</td>
+                        <td>$800</td>
+                        <td>USA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Uso de bloques en linea</h2>
+            <br>
+            <div style="background-color: lightblue; padding: 20px; border-radius: 5px;">
+                <h3>Bloque de texto</h3>
+                <p>Este es un bloque de texto que se utiliza para mostrar información adicional.</p>
+            </div>
+        </section>
+        <section>
+            <h2 style="text-align: center; background-color: #1e1e1e; padding: 10px; border-radius: 5px;">Bienvenido a Jorge Motors</h2>
+            <h3>Uso de video local</h3>
+            <video controls style="width: 300px; height: 100px;">
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </section>
+        <section>
+            <h2>Uso del video de YOUTUBE</h2>
+            <iframe
+                width="600"
+                height="400"
+                src="https://www.youtube.com/embed/mue5d_r1Vd4"
+                title="OKINOI - Repuesto de motor"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+            ></iframe>
+        </section>
+        <section>
+            <h2>Uso de audio</h2>
+            <audio controls style="width: 300px; height: 100px;">
+                <source src="sonido.mp3" type="audio/mp3">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+        </section>
+    </div>
 </body>
 
 </html>
